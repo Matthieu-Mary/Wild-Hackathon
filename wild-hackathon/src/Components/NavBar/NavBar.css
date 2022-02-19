@@ -1,0 +1,22 @@
+.nav {
+    background-color:#6ea833;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+}
+
+.nav--list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    border: 15px;
+}
+
+.nav--list li {
+    padding : 15px;
+}
+.nav--logo {
+    height: 100px;
+}
+
