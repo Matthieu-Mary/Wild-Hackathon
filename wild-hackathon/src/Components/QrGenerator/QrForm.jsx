@@ -1,12 +1,12 @@
 import React from 'react'
+import "./QrGenerator.css"
 
-export default function 
-() {
+export default function QrForm({handleChange, handleSubmit, table}) {
   return (
-    <form>
-        <label htmlFor="">Combien de tables avez-vous ?</label>
-        <input type="text" />
-        <QrButton />
+    <form onSubmit={handleSubmit}>
+        <label>Combien de tables avez-vous ?</label>
+        <input type="text" name="tableNumber" value={table} onChange={handleChange}/>
+        <input type="submit" value="Générer un QRCode"/>
     </form>
   )
 }
