@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import NavBar from "../Navbar/NavBar"
+import NavBar from "../NavBar/NavBar"
 import QrForm from "./QrForm"
 import QrList from "./QrList"
 import "./QrGenerator.css"
