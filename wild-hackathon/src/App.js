@@ -8,8 +8,14 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <QrGenerator />
-      <ContainerCarte />
+      <Routes>
+        <Route path='/' element={<QrGenerator />}/>
+        <Route path="/menu" element={<ContainerCarte />}/>
+        <Route />
+      </Routes>
+      
+      
+      
     </div>
   )
 }

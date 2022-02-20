@@ -22,8 +22,7 @@ export default function QrGenetator() {
     }
 
   return (
-    <div>
-        <NavBar />       
+    <div>     
         <div className="container-QrGenerator">
             <QrForm handleChange={handleChange} handleSubmit={handleSubmit}/>
             <QrList numberOfQr={numberOfQr}/> 
